@@ -7,10 +7,11 @@ import sys
 import h5py
 
 from tensorflow.python.ops.gen_batch_ops import batch
-sys.path.append('../')
+sys.path.append('MEISTER')
 from utils import *
 from processing import *
 from signal_model import *
+from train import *
 import subspaceMSI as subspace
 
 from tensorflow import keras 

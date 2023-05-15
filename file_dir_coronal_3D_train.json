@@ -1,7 +1,7 @@
-{"parameter_file_path": "./parameters/parameters_coronal_3D_train.json",
-    "imaging_info_path_BASIS": "E:/20210930_LongTransient/20210930_Coronal_MSI_LongTransient_S3_S5.d/ImagingInfo.xml",
-    "imaging_info_path_HR": "E:/20210930_LongTransient/20210930_Coronal_MSI_LongTransient_S3_S5.d/ImagingInfo.xml",
-    "imaging_info_path_LR": "E:/20210930_LongTransient/20210930_Coronal_MSI_LongTransient_S3_S5.d/ImagingInfo.xml",
-    "ser_file_path_BASIS": "E:/20210930_LongTransient/20210930_Coronal_MSI_LongTransient_S3_S5.d/ser",
-    "ser_file_path_HR": "E:/20210930_LongTransient/20210930_Coronal_MSI_LongTransient_S3_S5.d/ser",
-    "ser_file_path_LR": "E:/20210930_LongTransient/20210930_Coronal_MSI_LongTransient_S3_S5.d/ser"}
+{"parameter_file_path": "./parameters_coronal_3D_train.json",
+    "imaging_info_path_BASIS": "E:/20230412_MouseBrain/1M/20230412_MouseMSI_1M.d/ImagingInfo.xml",
+    "imaging_info_path_HR": "E:/20230412_MouseBrain/1M/20230412_MouseMSI_1M.d/ImagingInfo.xml",
+    "imaging_info_path_LR": "E:/20230412_MouseBrain/1M/20230412_MouseMSI_1M.d/ImagingInfo.xml",
+    "ser_file_path_BASIS": "E:/20230412_MouseBrain/1M/20230412_MouseMSI_1M.d/ser",
+    "ser_file_path_HR": "E:/20230412_MouseBrain/1M/20230412_MouseMSI_1M.d/ser",
+    "ser_file_path_LR": "E:/20230412_MouseBrain/1M/20230412_MouseMSI_1M.d/ser"}

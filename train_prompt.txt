@@ -1,0 +1,1 @@
+python train_signal_model.py --train_ROI R00 R01 R02 --path_file file_dir_coronal_3D_train.json 
