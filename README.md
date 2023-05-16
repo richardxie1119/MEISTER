@@ -2,6 +2,9 @@
 Multiscale and integrative analysis of tissue and single cells using mass spectrometry with deep learning reconstruction.
 
 
+## Dependencies
+- Spike (FTMS processing): https://github.com/spike-project/spike
+- BrainPy (isotopic distribution calculator): https://github.com/mobiusklein/brainpy
 
 ## Installation via Anaconda (recommended)
 1. First navigate into the directory: `cd MEISTER`
