@@ -27,6 +27,7 @@ dependencies:
   - pip:
     - torch==1.7.1
     - spike-py
+    - argparse
     - pyimzml
     - pyMSpec
     - tables
