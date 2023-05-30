@@ -22,12 +22,16 @@ def loadimzMLData(file_name):
 
 def loadBrukerFIDs(file_path, fid_length, read_length, fid_idx, verbose = False):
     """
-
+    Loads in binary FIDs from Bruker ser files. 
+    file_path : path to Bruker ser file. The file is named "ser" and is contained in the Bruker .d folder.
+    fid_length : the length (in data points) of each FID.
+    read_length : specifies how much of each transient to read. Specify length or set read_length="all" to read the entire FID
+    fid_idx : this is the index of the FID within the ser file. Can be one or multiple FIDs. By loading one or a small number of FIDs computer memory is saved.
     """
-    fids = []
+    fids = [] # initialize fids 
     if path.exists(file_path):
 
-        f = open(file_path,'r')
+        f = open(file_path,'r') #open specified FID(s) from ser file
 
         if type(fid_idx) == list or type(fid_idx) == np.ndarray:
 
@@ -52,17 +56,17 @@ def loadBrukerFIDs(file_path, fid_length, read_length, fid_idx, verbose = False)
             f.seek(4*(fid_idx-1)*fid_length) #seek FID locations within the .ser file
 
             if read_length == 'all':
-                fid = np.fromfile(f, count = fid_length, dtype = 'int32')
+                fid = np.fromfile(f, count = fid_length, dtype = 'int32') #read entire transient
                 fids.append(fid)
             else:
-                fid = np.fromfile(f, count = read_length, dtype = 'int32')
+                fid = np.fromfile(f, count = read_length, dtype = 'int32') #read transient to specified read_length
                 fids.append(fid)
 
         f.close()
 
     else:
         raise Exception('ser file does not exist in the provided file path. please double check.')
-
+        #error if file path is not valid
     return np.array(fids,dtype='float64')
 
 
