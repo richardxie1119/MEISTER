@@ -1,4 +1,4 @@
-name: MEISTER_2
+name: MEISTER
 channels:
   - conda-forge
 
