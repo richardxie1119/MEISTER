@@ -1,4 +1,4 @@
-name: MEISTER
+name: MEISTER_2
 channels:
   - conda-forge
 
@@ -10,28 +10,23 @@ dependencies:
   - yaml
   - matplotlib
   - seaborn
-  - numpy
   - pip
   - scipy
   - scikit-learn
   - tqdm
-  - numpy==1.23.5
+  - numpy==1.24.3
   - requests
   - ipywidgets
   - scikit-image
   - opencv
   - imagecodecs
-  - leidenalg
-  - scanpy
-  - tensorflow
+  #- tensorflow
   - pip:
-    - torch==1.7.1
     - spike-py
     - argparse
     - pyimzml
     - pyMSpec
     - tables
-    - anndata
     - xgboost
     - shap
     - brain-isotopic-distribution
