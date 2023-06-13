@@ -26,6 +26,7 @@ dependencies:
     - pyimzml
     - pyMSpec
     - tables
+    - seaborn
     - xgboost
     - shap
     - brain-isotopic-distribution
