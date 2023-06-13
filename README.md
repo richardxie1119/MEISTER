@@ -9,4 +9,4 @@ The preliminary version of training MEISTER signal models for reconstruction can
 
 ## Multiscale data analysis
 
-The Notebooks for the multifaceted data analysis can be found [here](https://github.com/richardxie1119/multiscale_analysis). A more complete version is upcoming soon.
+The Notebooks for the multifaceted data analysis can be found [here](https://github.com/richardxie1119/multiscale_analysis).
