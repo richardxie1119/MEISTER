@@ -5,7 +5,10 @@ low-res data (short transients) of the remaining tissue sections to enable highl
 data acquisition and improved SNRs and image quality. 
 """
 import sys
-sys.path.append('../')
+sys.path.append('MEISTER')
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 from utils import *
 from processing import *
 import subspaceMSI
@@ -86,8 +89,8 @@ if __name__ == "__main__":
     ser_file_path = recon.ser_file_path_LR
     fid_length = t.size
     signal_size = t_LR.size
-    coord = recon.imaginginfo_HR['R00']['coordinates']
-    scan_index = recon.imaginginfo_HR['R00']['scan_index']
+    coord = recon.imaginginfo_LR[args.recon_ROI]['coordinates']
+    scan_index = recon.imaginginfo_LR[args.recon_ROI]['scan_index']
 
     if args.if_process_raw == 'True':
         process_raw = True
@@ -134,4 +137,4 @@ if __name__ == "__main__":
             pickle.dump(peak_list_avg, fp, protocol=pickle.HIGHEST_PROTOCOL)
     
     with open('{}/{}_{}_propagated_decoded.pkl'.format(args.out_dir, recon.parameters['project_name'], args.recon_ROI), 'wb') as fp:
-        pickle.dump({'mz':peak_list_avg['mz'],'peak_data':peak_data_pred_decoded,'coordinates':recon.imaginginfo_HR['R00']['coordinates']}, fp, protocol=pickle.HIGHEST_PROTOCOL)
+        pickle.dump({'mz':peak_list_avg['mz'],'peak_data':peak_data_pred_decoded,'coordinates':recon.imaginginfo_LR[args.recon_ROI]['coordinates']}, fp, protocol=pickle.HIGHEST_PROTOCOL)
