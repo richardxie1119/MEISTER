@@ -1,7 +1,0 @@
-{"project_name": "coronal_latent32_epoch10_25um",
-    "pixel_num_HR": 4000,
-    "fid_length_HR": 1048576,
-     "sw_h": 1428571.4285714286,
-      "n_basis": 150,
-       "fid_length_LR": 65536,
-        "CALIB": [107798997.08328888, 5.694034141537156, 0]}
