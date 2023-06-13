@@ -13,6 +13,7 @@ dependencies:
   - pip
   - scipy
   - scikit-learn
+  - scikit-image
   - tqdm
   - numpy==1.24.3
   - requests
