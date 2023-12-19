@@ -25,7 +25,6 @@ embedding='True'
 
 for ((i=0;i<${#recon_ROI[@]};++i)); do
     printf "Processing data for region %s ...\n" "${recon_ROI[i]}"
-    python.exe deep_recon.py  --path_file $path_files --out_dir $out_dir --embedding $embedding --recon_ROI ${recon_ROI[i]}
-     --decoder_dir $decoder_dir --regressor_dir $regressor_dir --mz_range $mz_range  --if_process_raw $if_process_raw --if_simu $if_simu
+    python.exe deep_recon.py  --path_file $path_files --out_dir $out_dir --embedding $embedding --recon_ROI ${recon_ROI[i]} --decoder_dir $decoder_dir --regressor_dir $regressor_dir --mz_range $mz_range  --if_process_raw $if_process_raw --if_simu $if_simu
 done
 
