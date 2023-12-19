@@ -1,0 +1,9 @@
+{"parameter_file_path": "./data/parameters/parameters_coronal_3D_slide3_5.json",
+    "imaging_info_path_BASIS": "./data/20210930_LongTransient_2kHz_S4_S6/20210930_MRI_MSI_LongTransient_S4_S6.d/ImagingInfo.xml",
+    "imaging_info_path_HR": "./data/20210930_LongTransient/20210930_Coronal_MSI_LongTransient_S3_S5.d/ImagingInfo.xml",
+    "imaging_info_path_LR": "./data/20210930_ShortTransient_S3_5/20210930_ShortTransient_S3_5.d/ImagingInfo.xml",
+    "ser_file_path_BASIS": "./data/20210930_LongTransient/20210930_Coronal_MSI_LongTransient_S3_S5.d/ImagingInfo.xml",
+    "ser_file_path_HR": "./data/20210930_LongTransient/20210930_Coronal_MSI_LongTransient_S3_S5.d/ser",
+    "ser_file_path_LR": "./data/20210930_ShortTransient_S3_5/20210930_ShortTransient_S3_5.d/ser"}
+
+    
