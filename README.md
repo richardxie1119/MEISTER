@@ -5,6 +5,14 @@ This is the code repository for the paper "Multiscale biochemical mapping of the
 
 :construction: **We are expanding our code documentations to make it friendly** :construction:
 
+## Installation
+### via Anaconda (recommended way)
+Create a conda enviroment:
+```
+conda env create -f environment.yml
+conda activate MEISTER
+```
+
 ## Set up MEISTER
 The preliminary version of training MEISTER signal models for reconstruction can be found [here](https://github.com/richardxie1119/MEISTER/blob/main/MEISTER_doc.pdf). A more complete version is upcoming soon.
 
