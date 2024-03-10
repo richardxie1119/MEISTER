@@ -1,6 +1,7 @@
 # MEISTER
 Multiscale and integrative analysis of tissue and single cells using mass spectrometry with deep learning reconstruction.
-This is the code repository for the paper "Multiscale biochemical mapping of the brain through deep-learning-enhanced high-throughput mass spectrometry", **Nature Methods, 2024** ([link])(https://www.nature.com/articles/s41592-024-02171-3)
+
+This is the code repository for the paper "Multiscale biochemical mapping of the brain through deep-learning-enhanced high-throughput mass spectrometry", **Nature Methods, 2024** [link](https://www.nature.com/articles/s41592-024-02171-3)
 
 :construction: **We are expanding our code documentations to make it friendly** :construction:
 
