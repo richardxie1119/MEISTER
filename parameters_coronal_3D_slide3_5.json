@@ -1,0 +1,7 @@
+{"project_name": "coronal3D_latent32_epoch10_slide3_5",
+     "pixel_num_HR": 4000,
+     "fid_length_HR": 1048576,
+      "sw_h": 1428571.4285714286,
+       "n_basis": 150,
+        "fid_length_LR": 65536,
+         "CALIB": [107798997.08328888, 6.277444864073617, 0]}
