@@ -16,7 +16,7 @@ conda activate MEISTER
 ## Set up MEISTER
 * The documentation for training MEISTER signal models for reconstruction can be found [here](https://github.com/richardxie1119/MEISTER/blob/main/MEISTER_doc.pdf). 
 * The complete computational protocol for reconstruction and downstream multiscale data analysis can be found in the online Supplementary Information [here](https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-024-02171-3/MediaObjects/41592_2024_2171_MOESM1_ESM.pdf)
-* 
+  
 ## Multiscale data analysis notebooks
 
 The Notebooks for the multifaceted data analysis can be found [here](https://github.com/richardxie1119/multiscale_analysis). Detailed instructions for reproducing the analysis with these notebooks are provided in the [Supplementary Protocol](https://github.com/richardxie1119/MEISTER/blob/main/Supplementary_Protocol.pdf). 
