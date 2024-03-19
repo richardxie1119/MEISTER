@@ -32,9 +32,9 @@ The Notebooks for the multifaceted data analysis can be found [here](https://git
 - [MEISTER_singlecell.ipynb](https://github.com/richardxie1119/multiscale_analysis/blob/main/tissue_sc_mapping_deepmsi_hip.ipynb): Evaluation of MEISTER models on experimental single-cell MS data sets.
 
  ## Example data
-Data can be accessed [here](https://doi.org/10.13012/B2IDB-9740536_V1) raw transients file needs to be downloaded 
+Data can be accessed [here](https://doi.org/10.13012/B2IDB-9740536_V1). Raw transient files need to be downloaded 
 separately from [this link](https://uofi.box.com/s/oagdxhea1wi8tvfij4robj0z0w8wq7j4) and placed 
-into the .d folder within the Bruker data folder):
+into the .d folder within the Bruker data folder.
 - `saved_model.zip`: trained model weights (decoder and regressor) on high-resolution MSI data used in the manuscript. 
 - `20210930_ShortTransient_S3_5.zip`: serial sections of rat coronal sections acquired with low mass resolution as input for reconstruction in the manuscript.
 - `coronal3D_propagated_decoded.h5`: reconstructed and processed MSI data of serial sections of rat coronal sections.
