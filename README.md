@@ -19,7 +19,7 @@ conda activate MEISTER
   
 ## Multiscale data analysis notebooks
 
-The Notebooks for the multifaceted data analysis can be found [here](https://github.com/richardxie1119/multiscale_analysis). Detailed instructions for reproducing the analysis with these notebooks are provided in the [Supplementary Protocol](https://github.com/richardxie1119/MEISTER/blob/main/Supplementary_Protocol.pdf). 
+The Notebooks for the multifaceted data analysis can be found [here](https://github.com/richardxie1119/multiscale_analysis). Detailed instructions for reproducing the analysis with these notebooks are provided in the [Supplementary Protocol](https://github.com/richardxie1119/MEISTER/blob/main/document/Supplementary_Protocol.pdf). 
 
 | Script | Description |
 | --- | --- |
