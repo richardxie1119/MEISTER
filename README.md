@@ -35,13 +35,13 @@ The Notebooks for the multifaceted data analysis can be found [here](https://git
 
 
  ## Example data
-Data can be accessed [here](https://doi.org/10.13012/B2IDB-9740536_V1). The complete raw transient files can be downloaded 
-separately from [this link](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=2a823e133be648b2b0ae982f40e7f41b).  
+Data can be accessed [here](https://doi.org/10.13012/B2IDB-9740536_V1). 
 - `saved_model.zip`: trained model weights (decoder and regressor) on high-resolution MSI data used in the manuscript. 
 - `20210930_ShortTransient_S3_5.zip`: serial sections of rat coronal sections acquired with low mass resolution as input for reconstruction in the manuscript.
 - `coronal3D_propagated_decoded.h5`: reconstructed and processed MSI data of serial sections of rat coronal sections.
 - `peak_data_sc_regional_decode.imzML`: peak data of 13,566 single rat brain cells.
 - `coronal3D_slide3_5_R00_propagated_decoded.imzML`: peak data of a representative rat brain coronal section.
+The complete raw transient files can be downloaded separately from [MassIVE](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=2a823e133be648b2b0ae982f40e7f41b). Note: you will need FTP to download the full data set (>1 TB).
 - '1M': Full raw data for 1M points transients (high res)
 - '64k': Full raw data for 64k point transients (low res)
 
